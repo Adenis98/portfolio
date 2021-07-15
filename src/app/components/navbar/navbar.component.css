@@ -1,0 +1,101 @@
+*{
+    user-select: none ; 
+}
+.sideNav{
+    height: 100%;
+    background-color: #181818;
+    position:fixed;
+    left : 0px;
+    
+    width : 68px;
+    z-index: 10;
+}
+.sideNav .logo p{
+    font-size: 13px;
+    margin-top:20px;
+    letter-spacing: 3px;
+}
+.logo{
+    background-color: #070707;
+    color : white ; 
+    height: 70px;
+    padding : 5px;
+    text-align: center;
+    transition : 0.5s all ; 
+    cursor : pointer ;
+}
+.logo:hover ~.buttons{
+    display: none;
+}
+.logo:hover{
+    height: 210px;
+}
+.logo:hover .nom{
+    transition : 0.7s ease-out ; 
+    color:#81590f;
+    display:block;
+
+}
+.prenom{
+    pointer-events:all;
+}
+.nom{
+    color:transparent;
+    transition : 0.3s ease-in ; 
+    z-index: -100;
+    pointer-events: none;
+}
+.buttons{
+    position : absolute ; 
+    height : 300px;
+    padding : 10px;
+    top: 27%;
+    color : #686868;
+    text-align: center;
+}
+.buttons button{
+    margin-top : 20px;
+    transition : 0.5s all ; 
+}
+.socialButtons{
+    position : absolute ; 
+    bottom: 5px;
+    color : #4d4d4e;
+    text-align: center;
+    width: 100%;
+    font-size: 19px ;
+}
+.socialIcon{
+    margin-bottom : 20px;
+    cursor: pointer
+}
+.facebook{
+    transition : 0.3s all;
+}
+.facebook:hover{
+    color : #4267B2;
+    font-size: 35px
+}
+.linkedIn{
+    transition : 0.3s all;
+}
+.linkedIn:hover{
+    color : #0E76A8;
+    font-size: 35px
+}
+.gitHub{
+    transition : 0.3s all;
+}
+.gitHub:hover{
+    color : #fca304;
+    font-size: 35px
+}
+
+.activeBtn{
+    color : white;
+    size: 50px;
+    border-radius : 20px
+}
+a{
+    color : #4d4d4e
+}

@@ -1,0 +1,35 @@
+*{
+    user-select: none ;
+}
+.ma{
+    padding-top : 15%
+}
+.myLogo{
+    max-width : 250px;
+    margin:auto ; 
+    position: absolute;
+    bottom : 7px;
+    right: 7px;
+}
+.intro{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 85px;
+    letter-spacing: 5px;
+    position:relative;
+}
+.myName{
+    font-weight: 400;
+    color : #81590f ; 
+    transition: all 0.3s;
+}
+.myName:hover {
+    color: #d3a85a;
+    cursor : pointer ;
+    font-size: 60px;
+}
+.details{
+    font-size: 35px;
+    color : rgb(214, 200, 173)
+}

@@ -1,0 +1,7 @@
+.particlesStyle{
+    position : fixed;
+    width : 110%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -10;
+}

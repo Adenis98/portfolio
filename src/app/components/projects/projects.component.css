@@ -1,0 +1,137 @@
+*{
+    user-select: none;
+}
+a{
+    text-decoration : none;
+}
+.projectsTitle{
+    font-size: 35px;
+    color : #ffdb98;
+    padding-top: 100px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-weight:100;
+}
+.pageBody{
+    padding-bottom:45px;
+}
+button{
+    color : #ffdb98 ; 
+    border : 1px solid  #ce9b3d; 
+}
+.example-card {
+    max-width: 400px;
+    margin : auto ; 
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    line-height: 27px;
+    min-height: 500px;
+    overflow: hidden;
+    margin-top:50px;
+}
+.example-card button {
+    margin:auto;
+    margin-top:10px;
+    margin-right: 10px;
+}
+.example-header-image {
+    background-size: cover;
+    text-align: center;
+    vertical-align: center;
+}
+
+.angular{
+    font-size: 23px;
+    color : rgb(228, 59, 59)
+}
+.spring{
+    font-size: 19px;
+    color :rgb(150, 207, 93)
+}
+.year{
+    font-size: 13px;
+    color: rgb(235, 235, 235)
+}
+.webLogin {
+    cursor: pointer;
+    height: 230px;
+    background: url("../../../assets/projects/web login.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+.webLogin:hover {
+    background: url("../../../assets/projects/web inter-agent.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+
+.binco {
+    cursor: pointer;
+    height: 230px;
+    background: url("../../../assets/projects/binco capt1.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+.binco:hover {
+    background: url("../../../assets/projects/binco capt2.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+
+.ramezShop {
+    cursor: pointer;
+    height: 230px;
+    background: url("../../../assets/projects/ramezshop cpt1.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+.ramezShop:hover {
+    background: url("../../../assets/projects/ramezshop cpt2.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+
+
+.portailFlutter {
+    cursor: pointer;
+    width : 120px;
+    height: 250px;display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../../../assets/projects/mobile login.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+.portailFlutter:hover {
+    background: url("../../../assets/projects/mobile home screen.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+
+
+.stump {
+    cursor: pointer;
+    height: 230px;
+    background: url("../../../assets/projects/stump capt1.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+.stump:hover {
+    background: url("../../../assets/projects/stump capt2.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+
+.oneClick {
+    cursor: pointer;
+    height: 230px;
+    background: url("../../../assets/projects/java cpt1.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
+.oneClick:hover {
+    background: url("../../../assets/projects/java cpt1.png");
+    background-size: cover;
+    transition : 0.5s all ;
+}
