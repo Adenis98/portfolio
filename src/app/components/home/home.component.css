@@ -2,8 +2,8 @@
     user-select: none ;
 }
 .ma{
-    padding-top : 15%;
-    padding-bottom : 15%
+    padding-top : 12%;
+    padding-bottom : 12%
 }
 .myLogo{
     max-width : 250px;
@@ -16,9 +16,10 @@
     font-family: 'Roboto', sans-serif;
     font-size: 55px;
     font-weight: 300;
-    line-height: 85px;
+    line-height: 130px;
     letter-spacing: 5px;
     position:relative;
+    height: 100%;
 }
 .myName{
     font-weight: 400;
@@ -35,6 +36,9 @@
     color : rgb(214, 200, 173)
 }
 @media(max-width:780px){
+    .intro{
+        line-height: 85px;
+    }
     .myLogo{
         display: none;
     }
