@@ -1,4 +1,4 @@
-.projectsTitle{
+.aboutMeTitle{
     font-size: 35px;
     color : #ffdb98;
     padding-top: 100px;
@@ -6,4 +6,10 @@
     letter-spacing: 3px;
     line-height: 50px;
     font-weight:100;
+}
+
+@media(max-width:480px){
+    .aboutMeTitle{
+        font-size: 25px;
+    }
 }

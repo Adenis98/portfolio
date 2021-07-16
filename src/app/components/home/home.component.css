@@ -2,7 +2,8 @@
     user-select: none ;
 }
 .ma{
-    padding-top : 15%
+    padding-top : 15%;
+    padding-bottom : 15%
 }
 .myLogo{
     max-width : 250px;
@@ -32,4 +33,23 @@
 .details{
     font-size: 35px;
     color : rgb(214, 200, 173)
+}
+@media(max-width:780px){
+    .myLogo{
+        display: none;
+    }
+    .intro{
+        font-size: 35px;
+    }
+    .details{
+        font-size: 25px;
+    }
+    .myName:hover {
+        font-size: 40px;
+    }
+}
+@media(max-width:500px){
+    .myLogo{
+        display: none;
+    }
 }

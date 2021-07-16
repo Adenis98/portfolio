@@ -1,5 +1,5 @@
-<nav class="sideNav" @openSidenav>
-    
+<nav class="sideNav " [class.hideSideNav]="this.hide" [class.showSideNav]="!this.hide"   @openSidenav>
+    <div class="openBtn" (click)="hideBtn()"><mat-icon>{{(this.hide)?"menu":"keyboard_arrow_left"}}</mat-icon></div>
     <div class="logo">
      
         <p class="prenom">RAMEZ</p>

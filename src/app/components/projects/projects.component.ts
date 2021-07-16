@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
       transition('void => *',[style({transform : 'translateX(-15%)',opacity :0 }),animate('0.6s 0.2s ease-out')])
     ]),
     trigger('textOpen',[
-      transition('void => *',[style({opacity :0 }),animate('1s 0.2s ease-out')])
+      transition('void => *',[style({opacity :0 ,transform : 'translateX(-7%)'}),animate('0.6s 0.2s ease-out')])
     ])
   ]
 })

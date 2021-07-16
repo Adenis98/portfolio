@@ -135,3 +135,8 @@ button{
     background-size: cover;
     transition : 0.5s all ;
 }
+@media(max-width:480px){
+    .projectsTitle{
+        font-size: 25px;
+    }
+}
