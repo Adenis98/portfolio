@@ -138,5 +138,6 @@ button{
 @media(max-width:480px){
     .projectsTitle{
         font-size: 25px;
+        padding-top: 50px;
     }
 }

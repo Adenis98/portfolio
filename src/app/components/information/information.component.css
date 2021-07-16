@@ -11,5 +11,6 @@
 @media(max-width:480px){
     .aboutMeTitle{
         font-size: 25px;
+        padding-top: 50px;
     }
 }
