@@ -40,17 +40,17 @@
 .angular{
     text-align: center;
     color : rgb(231, 63, 63);
-    font-size: 200px;
 }
 .spring{
     text-align: center;
     color : rgb(49, 167, 49);
-    font-size: 160px;
 }
 .flutter{
     text-align: center;
     color : rgb(25, 102, 245);
-    font-size: 160px;
+}
+.angular img , .flutter img , .spring img{
+    width : 200px
 }
 @media(max-width:768px){
     .ramezImg{
@@ -88,4 +88,8 @@
     .aboutMeText{
         min-width: auto;
     }
+    .angular img , .flutter img, .spring img{
+        width : 125px
+    }
+   
 }
