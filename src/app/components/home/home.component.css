@@ -13,21 +13,23 @@
     right: 7px;
 }
 .intro{
-    font-family: 'Roboto', sans-serif;
     font-size: 55px;
     font-weight: 300;
     line-height: 130px;
     letter-spacing: 5px;
     position:relative;
     height: 100%;
+    font-family: 'Oswald';
 }
+
 .myName{
     font-weight: 400;
-    color : #81590f ; 
+ 
+    color : #e9aa35;
     transition: all 0.3s;
 }
 .myName:hover {
-    color: #d3a85a;
+    color: #df9100;
     cursor : pointer ;
     font-size: 60px;
 }

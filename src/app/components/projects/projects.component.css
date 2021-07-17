@@ -1,3 +1,4 @@
+
 *{
     user-select: none;
 }
@@ -5,13 +6,14 @@ a{
     text-decoration : none;
 }
 .projectsTitle{
-    font-size: 35px;
-    color : #ffdb98;
+    font-size: 40px;
+    color : #ebb758;
+    font-family: 'Oswald';
     padding-top: 100px;
-    text-align: center;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     line-height: 50px;
     font-weight:100;
+    position: relative;
 }
 .pageBody{
     padding-bottom:45px;
@@ -23,7 +25,6 @@ button{
 .example-card {
     max-width: 400px;
     margin : auto ; 
-    font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     line-height: 27px;
     min-height: 500px;
@@ -135,9 +136,23 @@ button{
     background-size: cover;
     transition : 0.5s all ;
 }
+.bottomBorder{
+    position : absolute ; 
+    left:5px;
+    bottom : -13px;
+    width : 320px;
+    height: 6px;
+    border-radius: 10px;
+    background: linear-gradient(
+270deg
+, rgb(251, 118, 84)  0%, rgb(140, 77, 218) 100%);
+}
 @media(max-width:480px){
     .projectsTitle{
         font-size: 25px;
         padding-top: 50px;
+    }
+    .bottomBorder{
+        width : 200px
     }
 }

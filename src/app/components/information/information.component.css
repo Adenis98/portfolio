@@ -1,16 +1,77 @@
+.container{
+    padding-top : 80px
+}
 .aboutMeTitle{
-    font-size: 35px;
-    color : #ffdb98;
-    padding-top: 100px;
-    text-align: center;
+    font-size: 45px;
+    color : #ebb758;
+    font-family: 'Oswald';
     letter-spacing: 3px;
     line-height: 50px;
     font-weight:100;
+    position : relative ; 
+}
+.aboutText{
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 80px;
+    letter-spacing: 5px;
+    position:relative;
+    height: 100%;
+    font-family: 'Oswald';
+}
+.bottomBorder{
+    position : absolute ; 
+    left:5px;
+    bottom : -13px;
+    width: 150px;
+    height: 6px;
+    border-radius: 10px;
+    background: linear-gradient(
+270deg
+, rgb(251, 118, 84)  0%, rgb(140, 77, 218) 100%);
+}
+.techWidth{
+    width : 210px;
+}
+.ramezImg{
+    height: 450px;
+    border-radius: 35px;
 }
 
+@media(max-width:768px){
+    .ramezImg{
+        height: 580px;
+        width: auto;
+        border-radius: 50px;
+    }
+    .aboutMeText{
+        min-width: 500px;
+    }
+}
 @media(max-width:480px){
+    .container{
+        padding-top: 50px;
+    }
     .aboutMeTitle{
         font-size: 25px;
-        padding-top: 50px;
+    }
+    .aboutText{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .bottomBorder{
+        width: 90px;
+    }
+    .techWidth{
+        width : 110px;
+    }
+
+    .ramezImg{
+        height: 350px;
+        width: auto;
+        margin-bottom: 40px;border-radius: 35px;
+    }
+    .aboutMeText{
+        min-width: auto;
     }
 }

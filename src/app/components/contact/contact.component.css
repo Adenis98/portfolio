@@ -1,0 +1,50 @@
+.contactTitle{
+    font-size: 45px;
+    color : #ebb758;
+    font-family: 'Oswald';
+    padding-top: 100px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-weight:100;
+    position : relative
+}
+.contactText{
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 80px;
+    letter-spacing: 5px;
+    position:relative;
+    height: 100%;
+    font-family: 'Oswald';
+}
+.mail{
+    color :#d8af2a 
+}
+
+.bottomBorder{
+    position : absolute ; 
+    bottom : -13px;
+    width : 130px;
+    left:5px;
+    height: 6px;
+    border-radius: 10px;
+    background: linear-gradient(
+270deg
+, rgb(251, 118, 84)  0%, rgb(140, 77, 218) 100%);
+}
+@media(max-width:480px){
+    .contactTitle{
+        font-size: 25px;
+        padding-top: 50px;
+    }
+    .contactText{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .mail{
+        letter-spacing: 1px;
+    }
+    .bottomBorder{
+        width : 70px
+    }
+}
